@@ -1,0 +1,43 @@
+{
+  "architectures": [
+    "AdaptFormerForChangeDetection"
+  ],
+  "auto_map": {
+    "AutoConfig": "configuration_adaptformer.AdaptFormerConfig",
+    "AutoModel": "modeling_adaptformer.AdaptFormerForChangeDetection",
+    "AutoImageProcessor": "preprocessing_adaptformer.AdaptFormerImageProcessor"
+  },
+  "depths": [
+    3,
+    3,
+    3
+  ],
+  "embed_dims": [
+    64,
+    128,
+    256
+  ],
+  "initializer_range": 0.02,
+  "mlp_ratios": [
+    4,
+    4,
+    4
+  ],
+  "model_type": "adaptformer",
+  "num_channels": 3,
+  "num_classes": 2,
+  "num_heads": [
+    1,
+    2,
+    4
+  ],
+  "semantic_loss_ignore_index": 255,
+  "semantic_loss_weight": [
+    0.2,
+    0.2,
+    0.5,
+    1
+  ],
+  "torch_dtype": "float32",
+  "transformers_version": "4.39.3"
+}

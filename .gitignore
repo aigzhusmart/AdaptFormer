@@ -1,2 +1,8 @@
 .DS_Store
 *.pth
+__pycache__
+adaptformer_hf
+LEVIR-CD-256
+wandb
+output
+wandb
